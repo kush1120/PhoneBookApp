@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import com.bikkadIt.PhoneBookApplication.model.Contact;
 @Repository
-public interface ContactReposiotory extends JpaRepository<Contact, Serializable>{
+public interface ContactRepository extends JpaRepository<Contact, Serializable>{
 
 }
